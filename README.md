@@ -18,3 +18,6 @@ Boot0001* Internal Storage  FvVol(a881d567-6cb0-4eee-8435-2e72d33e45b5)/FvFile(5
 Boot0002* USB Storage  FvVol(a881d567-6cb0-4eee-8435-2e72d33e45b5)/FvFile(50670071-478f-4be7-ad13-8754f379c62f)USB.
 Boot0003* PXE Network  FvVol(a881d567-6cb0-4eee-8435-2e72d33e45b5)/FvFile(50670071-478f-4be7-ad13-8754f379c62f)PXE.
 Boot0005* Arch Linux  HD(1,GPT,d1292e32-7a74-4f6c-9ec6-d97335ec8865,0x800,0x200000)/File(\vmlinuz-linux)r.o.o.t.=.P.A.R.T.U.U.I.D.=.e.c.5.0.2.1.f.e.-.8.b.9.0.-.4.8.9.e.-.a.0.0.5.-.d.9.c.a.9.b.d.8.4.b.c.7. .r.w. .i.n.i.t.r.d.=.\.i.n.i.t.r.a.m.f.s.-.l.i.n.u.x...i.m.g.
+
+ADDING CUSTOM KERNEL TO EFIBOOTMGR
+efibootmgr --disk /dev/nvme0n1p1 --part 1 --create --label "Surface Arch Linux" --loader /vmlinuz-linux-surface --unicode 'root=PARTUUID=ec5021fe-8b90-489e-a005-d9ca9bd84bc7 rw initrd=\initramfs-linux-surface.img' --verbose
