@@ -22,4 +22,5 @@ Boot0005* Arch Linux  HD(1,GPT,d1292e32-7a74-4f6c-9ec6-d97335ec8865,0x800,0x2000
 ADDING CUSTOM KERNEL TO EFIBOOTMGR
 efibootmgr --disk /dev/nvme0n1p1 --part 1 --create --label "Surface Arch Linux" --loader /vmlinuz-linux-surface --unicode 'root=PARTUUID=ec5021fe-8b90-489e-a005-d9ca9bd84bc7 rw initrd=\initramfs-linux-surface.img' --verbose
 
+https://aur.archlinux.org/packages/passwordsafe
 https://www.linuxfordevices.com/tutorials/linux/install-libreoffice-on-arch
