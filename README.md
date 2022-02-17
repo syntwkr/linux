@@ -4,7 +4,7 @@
 ## EFIBOOTMGR
 https://wiki.archlinux.org/title/EFISTUB#efibootmgr
 
-EFIBOOTMGR
+- EFIBOOTMGR
 [ira@arch-box ~]$ efibootmgr -v
 BootCurrent: 0005
 Timeout: 0 seconds  
