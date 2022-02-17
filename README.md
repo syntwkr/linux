@@ -1,7 +1,7 @@
 # Bash scripts
 [ira@arch-box ~]$ while read thing; do echo $thing; done < lsout
 
-## EFIBOOTMGR
+# EFIBOOTMGR
 https://wiki.archlinux.org/title/EFISTUB#efibootmgr
 
 - EFIBOOTMGR
