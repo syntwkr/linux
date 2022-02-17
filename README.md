@@ -1,4 +1,4 @@
-# Bash scripts
+# BASH SCRIPTS
 [ira@arch-box ~]$ while read thing; do echo $thing; done < lsout
 
 # EFIBOOTMGR
