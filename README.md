@@ -1,3 +1,9 @@
+# Такой же сетап, как у меня. Ссд диск и вайфай. Плюс btrfs
+
+https://www.if-not-true-then-false.com/2021/arch-linux-install-guide/?amp=1
+
+https://github.com/linux-surface/linux-surface/wiki/Package-Repositories
+
 # BASH SCRIPTS
 [ira@arch-box ~]$ while read thing; do echo $thing; done < lsout
 
